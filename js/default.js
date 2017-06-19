@@ -11,7 +11,7 @@ while(0){
 var message;
 if(answer === number){
   message = 'あたり！';
-  break;
+  return 0;
 }else if (answer < number){
   message = '残念！もっと大きいです';
 }else if (number < answer){
