@@ -14,11 +14,11 @@ while(1){
     message = 'あたり！';
     break;
   }else if (answer < number){
-    message = '残念！もっと大きいです';
+    var answer = parseInt(window.prompt('残念！もっと大きいです。0~2の数字を入力してください！'));
   }else if (number < answer){
-    message = '残念！もっと小さいです';
+    var answer = parseInt(window.prompt('残念！もっと小さいです。0~2の数字を入力してください！'));
   }else{
-    message = '0～3の数字を入力してください';
+    var answer = parseInt(window.prompt('0～3の数字を入力してください'));
   }
 }
 
