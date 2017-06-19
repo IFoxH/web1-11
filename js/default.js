@@ -1,7 +1,7 @@
 //確認ダイアログを表示
-var result = window.confirm('準備OK？');
+//var result = window.confirm('準備OK？');
 //結果を表示
-document.getElementById('choice').textContent = result;
+//document.getElementById('choice').textContent = result;
 
 //答えを用意
 var number = Math.floor(Math.random()*3);
